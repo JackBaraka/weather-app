@@ -26,7 +26,7 @@ def display_weather(weather_data):
     print("="*40 + "\n")
 
 def main():
-    print("Welcome to Baraka Weather App!")
+    print("Welcome to BARAKA Weather App!")
     
     while True:
         print("\nOptions:")
@@ -37,8 +37,19 @@ def main():
         
         if choice == "1":
             city = input("Enter city name: ")
+            
+            # Ensure the city name is not empty
+            if not city.strip():
+                print("City name cannot be empty.")
+                continue
+                
+            print("Fetching weather data...")
             weather_data = get_current_weather(city)
-            display_weather(weather_data)
+            
+            if weather_data:
+                display_weather(weather_data)
+            else:
+                print(f"Could not retrieve weather data for {city}.")
         elif choice == "2":
             print("Thank you for using BARAKA Weather App. Goodbye!")
             break
