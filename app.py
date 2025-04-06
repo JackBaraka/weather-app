@@ -40,7 +40,7 @@ def main():
             weather_data = get_current_weather(city)
             display_weather(weather_data)
         elif choice == "2":
-            print("Thank you for using the Weather App. Goodbye!")
+            print("Thank you for using BARAKA Weather App. Goodbye!")
             break
         else:
             print("Invalid choice. Please try again.")
