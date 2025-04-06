@@ -26,7 +26,7 @@ def display_weather(weather_data):
     print("="*40 + "\n")
 
 def main():
-    print("Welcome to the Weather App!")
+    print("Welcome to Baraka Weather App!")
     
     while True:
         print("\nOptions:")
