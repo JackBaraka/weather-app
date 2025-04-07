@@ -91,7 +91,7 @@ def main():
         elif choice == "3":
             display_history()
         elif choice == "4":
-            print("Thanks for using the app. Goodbye!")
+            print("Thanks for using BARAKA weather app")
             break
         else:
             print("Invalid choice.")
