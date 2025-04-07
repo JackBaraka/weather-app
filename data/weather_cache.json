@@ -1,0 +1,50 @@
+{
+  "kitale": {
+    "coord": {
+      "lon": 35.0062,
+      "lat": 1.0157
+    },
+    "weather": [
+      {
+        "id": 500,
+        "main": "Rain",
+        "description": "light rain",
+        "icon": "10d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 18.5,
+      "feels_like": 18.34,
+      "temp_min": 18.5,
+      "temp_max": 18.5,
+      "pressure": 1012,
+      "humidity": 74,
+      "sea_level": 1012,
+      "grnd_level": 815
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.34,
+      "deg": 328,
+      "gust": 4.94
+    },
+    "rain": {
+      "1h": 0.77
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1744031445,
+    "sys": {
+      "country": "KE",
+      "sunrise": 1743997084,
+      "sunset": 1744040744
+    },
+    "timezone": 10800,
+    "id": 191220,
+    "name": "Kitale",
+    "cod": 200,
+    "_timestamp": 1744031446.470367
+  }
+}

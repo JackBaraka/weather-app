@@ -3,7 +3,7 @@
 import requests
 from data_store import get_from_cache, save_to_cache, add_to_history
 
-API_KEY = "your_api_key_here"  # Replace with your actual OpenWeatherMap API key
+API_KEY = "1e2b3f32571c5fcaa080574a7efb7102"
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 def get_current_weather(city, use_cache=True):
