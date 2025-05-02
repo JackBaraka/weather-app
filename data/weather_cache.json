@@ -46,5 +46,53 @@
     "name": "Kitale",
     "cod": 200,
     "_timestamp": 1744031446.470367
+  },
+  "kapenguria": {
+    "coord": {
+      "lon": 35.0895,
+      "lat": 1.2511
+    },
+    "weather": [
+      {
+        "id": 501,
+        "main": "Rain",
+        "description": "moderate rain",
+        "icon": "10d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 17.81,
+      "feels_like": 17.6,
+      "temp_min": 17.81,
+      "temp_max": 17.81,
+      "pressure": 1013,
+      "humidity": 75,
+      "sea_level": 1013,
+      "grnd_level": 799
+    },
+    "visibility": 9819,
+    "wind": {
+      "speed": 1.41,
+      "deg": 308,
+      "gust": 4.01
+    },
+    "rain": {
+      "1h": 1.29
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1744032733,
+    "sys": {
+      "country": "KE",
+      "sunrise": 1743997057,
+      "sunset": 1744040731
+    },
+    "timezone": 10800,
+    "id": 191220,
+    "name": "Kapenguria",
+    "cod": 200,
+    "_timestamp": 1744032733.812185
   }
 }
